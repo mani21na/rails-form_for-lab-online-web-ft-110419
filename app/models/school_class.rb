@@ -1,11 +1,2 @@
-<h3>School Class Form</h3>
-
-<%= form_for(@school_class) do |f| %>
-  <label>Title:</label><br>
-  <%= f.text_field :title %><br>
-
-  <label>Room Number:</label><br>
-  <%= f.number_field :room_number %><br>
-
-  <%= f.submit %>
-<% end %>
+class SchoolClass < ActiveRecord::Base
+end
